@@ -135,7 +135,7 @@ drush:
 mysql:
     install: '1'
     root_password: monetplus
-    phpmyadmin: '1'
+    phpmyadmin: 0
     adminer: 0
     databases:
         Fx46wwABE6Y0:
@@ -145,7 +145,7 @@ mysql:
             host: localhost
             user: pokercalc
             password: pokercalc
-            sql_file: ''
+            sql_file: '/var/www/puphpet/files/database/create_database.sql'
 postgresql:
     install: 0
     settings:
